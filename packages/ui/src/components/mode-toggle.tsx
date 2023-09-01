@@ -9,22 +9,29 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+import { cn } from "@/lib/utils";
 
 interface ModeToggleProps {
   setTheme(theme: string): void;
+  className?: string;
+  dropdownClassName?: string;
 }
 
-export function ModeToggle({ setTheme }: ModeToggleProps) {
+export function ModeToggle({
+  setTheme,
+  className,
+  dropdownClassName,
+}: ModeToggleProps) {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" className="w-9 px-0">
+      <DropdownMenuTrigger asChild className={className}>
+        <Button variant="ghost" className={cn("w-9 px-0", className)}>
           <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
           <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
           <span className="sr-only">Toggle theme</span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
+      <DropdownMenuContent className={dropdownClassName} align="end">
         <DropdownMenuItem onClick={() => setTheme("light")}>
           Light
         </DropdownMenuItem>

@@ -13,7 +13,6 @@ export function SiteHeader({
   mainNav,
   mobileNav,
   commandMenu,
-  modeToggle,
   children,
   className,
 }: SiteHeaderProps) {
@@ -31,10 +30,7 @@ export function SiteHeader({
           <div className="w-full flex-1 md:w-auto md:flex-none">
             {commandMenu}
           </div>
-          <nav className="flex items-center">
-            {children}
-            {modeToggle}
-          </nav>
+          <nav className="flex items-center">{children}</nav>
         </div>
       </div>
     </header>
