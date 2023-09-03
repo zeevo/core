@@ -2,7 +2,6 @@
 
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 
-import { Button } from "./ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,6 +9,7 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 import { cn } from "@/lib/utils";
+import { Button } from "./ui/button";
 
 interface ModeToggleProps {
   setTheme(theme: string): void;
