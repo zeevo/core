@@ -11,12 +11,11 @@ import { ScrollArea } from "@radix-ui/react-scroll-area";
 import { Button } from "./ui/button";
 
 export interface MobileNavProps {
-  open: boolean;
-  setOpen(open: boolean): void;
   siteName: string;
 }
 
-export function MobileNav({ siteName, open, setOpen }: MobileNavProps) {
+export function MobileNav({ siteName }: MobileNavProps) {
+  const [open, setOpen] = React.useState(false);
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
