@@ -2,6 +2,22 @@
 
 Small wrapper components that work with [shadcn/ui](https://ui.shadcn.com/).
 
+## Usage
+
+These components are designed to be used in a TailwindCSS project.
+
+Add `@zeevo/ui` to your `tailwind.config`.
+
+```
+module.exports = {
+  darkMode: ["class"],
+  content: [
+    ...,
+    "./node_modules/@zeevo/ui/dist/**/*.js",
+  ]
+}
+```
+
 ## Components
 
 [`DocsLayout`](https://github.com/zeevo/core/blob/main/packages/ui/src/components/docs-layout.tsx)
