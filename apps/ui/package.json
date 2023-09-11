@@ -1,7 +1,6 @@
 {
-  "name": "t3-shadcn-ui",
+  "name": "ui-showcase",
   "version": "0.1.2",
-  "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
