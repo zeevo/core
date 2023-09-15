@@ -1,0 +1,22 @@
+{
+  "name": "@zeevo/remotion",
+  "version": "0.2.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup ./src/index.tsx --format cjs --dts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zeevo",
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tsup": "^7.2.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "remotion": "^0.0.1"
+  }
+}
