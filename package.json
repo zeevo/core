@@ -1,19 +1,24 @@
 {
-  "private": true,
+  "name": "core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeevo/core.git"
+  },
+  "license": "GPL-3.0",
+  "author": "zeevo",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "turbo run lint"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
   },
   "devDependencies": {
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10",
-  "name": "core",
-  "dependencies": {
-    "@changesets/cli": "^2.26.2"
-  }
+  "packageManager": "pnpm@8.6.10"
 }

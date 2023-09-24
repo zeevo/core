@@ -1,21 +1,26 @@
 {
   "name": "apps-remotion",
   "version": "0.0.2",
-  "description": "My Remotion video",
+  "description": "Remotion example project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeevo/core.git",
+    "directory": "apps/remotion"
+  },
+  "license": "GPL-3.0",
   "scripts": {
     "dev": "remotion studio",
-    "upgrade": "remotion upgrade",
-    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
+    "test": "eslint src --ext ts,tsx,js,jsx && tsc",
+    "upgrade": "remotion upgrade"
   },
-  "repository": {},
   "dependencies": {
     "@remotion/cli": "^4.0.0",
     "@remotion/zod-types": "^4.0.0",
+    "@zeevo/remotion": "workspace:*",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "remotion": "^0.0.1",
-    "zod": "^3.21.4",
-    "@zeevo/remotion": "workspace:*"
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@remotion/eslint-config": "^4.0.0",
