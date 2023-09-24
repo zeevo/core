@@ -22,7 +22,7 @@ export function Layout({
     >
       <div className="relative flex min-h-screen flex-col">
         {header}
-        <div className="flex-1">{children}</div>
+        <div className="flex-1 flex flex-col">{children}</div>
         {footer}
       </div>
     </div>

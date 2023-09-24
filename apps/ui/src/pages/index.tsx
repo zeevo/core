@@ -13,7 +13,7 @@ import Link from "next/link";
 const Home: NextPage = () => {
   return (
     <PageLayout>
-      <div className="container relative">
+      <div className="container relative flex-1">
         <PageHeader className="pb-8">
           <PageHeaderHeading>Page heading.</PageHeaderHeading>
           <PageHeaderDescription>
