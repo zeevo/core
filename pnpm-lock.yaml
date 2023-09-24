@@ -36,8 +36,8 @@ importers:
         specifier: ^18.0.0
         version: 18.2.0(react@18.2.0)
       remotion:
-        specifier: ^4.0.0
-        version: 4.0.0(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^4.0.42
+        version: 4.0.42(react-dom@18.2.0)(react@18.2.0)
       zod:
         specifier: ^3.21.4
         version: 3.22.2
@@ -275,11 +275,13 @@ importers:
         specifier: ^5.0.2
         version: 5.0.2
 
+  packages/cli: {}
+
   packages/remotion:
     dependencies:
       remotion:
-        specifier: ^4.0.0
-        version: 4.0.0(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^4.0.42
+        version: 4.0.42(react-dom@18.2.0)(react@18.2.0)
     devDependencies:
       '@types/react':
         specifier: ^18.2.0
@@ -7115,6 +7117,16 @@ packages:
 
   /remotion@4.0.0(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-mejAAdAxANqzwSfgTw2ShLGtcx/2bGgmUHlw5x963/pRFF2PRlHHLklJjW80kMTVbeGuPAdXP42ABQVaK1ENgQ==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /remotion@4.0.42(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-HfbE2rwVpdyh3oyO3XPZDhT6ZnFNLySR2Vmr084jqN5LyiDi4eT94TrCRF0E69XPVqfHlZqlY+HIlcUxZAawyg==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'

@@ -1,6 +1,6 @@
 {
   "name": "@zeevo/remotion",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Remotion utilities",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "remotion": "^0.0.1"
+    "remotion": "^4.0.42"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",

@@ -1,5 +1,11 @@
 # @zeevo/ui
 
+## 0.3.1
+
+### Patch Changes
+
+- fix resolution of remotion 4
+
 ## 0.3.0
 
 ### Minor Changes
