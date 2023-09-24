@@ -1,3 +1,5 @@
+import React from "react";
+
 import { SequentialSeries } from "@zeevo/remotion";
 
 const sequences = [

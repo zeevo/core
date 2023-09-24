@@ -1,6 +1,7 @@
 {
   "name": "apps-remotion",
   "version": "0.0.2",
+  "private": true,
   "description": "Remotion example project",
   "repository": {
     "type": "git",

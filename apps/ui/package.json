@@ -1,6 +1,7 @@
 {
   "name": "apps-ui",
   "version": "0.0.2",
+  "private": true,
   "description": "UI example project",
   "repository": {
     "type": "git",
