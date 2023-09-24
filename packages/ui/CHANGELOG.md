@@ -1,5 +1,11 @@
 # @zeevo/ui
 
+## 0.3.0
+
+### Minor Changes
+
+- ui: Simplify Layout
+
 ## 0.2.0
 
 ### Minor Changes
