@@ -5,8 +5,24 @@
   "keywords": [],
   "license": "GPLv3",
   "author": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.5",
+    "@types/prompts": "^2.4.5",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@clack/core": "^0.3.3",
+    "@clack/prompts": "^0.7.0",
+    "commander": "^11.0.0",
+    "execa": "^8.0.1",
+    "ora": "^7.0.1",
+    "prompts": "^2.4.2"
   }
 }
