@@ -1,5 +1,11 @@
 # @zeevo/ui
 
+## 0.4.0
+
+### Minor Changes
+
+- new component TailwindIndicator
+
 ## 0.3.1
 
 ### Patch Changes
