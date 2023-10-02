@@ -6,5 +6,6 @@ export * from "./components/page-header";
 export * from "./components/site-footer";
 export * from "./components/mobile-nav";
 export * from "./components/toc";
+export * from "./components/tailwind-indicator";
 
 export * from "./types/nav";
