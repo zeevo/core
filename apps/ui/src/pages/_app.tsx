@@ -4,6 +4,7 @@ import { type AppType } from "next/app";
 import { ThemeProvider } from "@/components/providers";
 
 import "@/styles/globals.css";
+import { TailwindIndicator } from "@zeevo/ui";
 
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,
@@ -12,6 +13,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       <Component {...pageProps} />
+      <TailwindIndicator />
     </ThemeProvider>
   );
 };
