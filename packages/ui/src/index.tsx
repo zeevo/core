@@ -8,4 +8,6 @@ export * from "./components/mobile-nav";
 export * from "./components/toc";
 export * from "./components/tailwind-indicator";
 
+export * from "./utils/utils";
+
 export * from "./types/nav";
