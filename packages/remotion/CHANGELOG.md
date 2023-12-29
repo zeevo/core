@@ -1,5 +1,11 @@
 # @zeevo/remotion
 
+## 0.5.0
+
+### Minor Changes
+
+- d0fe5b2: Add `cn` to utils
+
 ## 0.4.0
 
 ### Minor Changes
