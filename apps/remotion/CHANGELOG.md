@@ -1,5 +1,12 @@
 # apps-remotion
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies
+  - @zeevo/remotion@0.6.0
+
 ## 0.0.3
 
 ### Patch Changes

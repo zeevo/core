@@ -1,5 +1,11 @@
 # @zeevo/ui
 
+## 0.6.0
+
+### Minor Changes
+
+- Fix distribution of 0.5.0
+
 ## 0.5.0
 
 ### Minor Changes
