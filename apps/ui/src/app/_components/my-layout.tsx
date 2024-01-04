@@ -1,19 +1,15 @@
-import { cn } from "@/lib/utils";
-import {
-  Layout,
-  MobileNav,
-  ModeToggle,
-  SiteFooter,
-  SiteHeader,
-} from "@zeevo/ui";
-import { Orbit } from "lucide-react";
-import { useTheme } from "next-themes";
+import { MixIcon } from "@radix-ui/react-icons";
+import { buttonVariants } from "@zeevo/shadcn-ui/button";
+import { cn } from "@zeevo/ui/cn";
+import { Layout } from "@zeevo/ui/layout";
+import { MobileNav } from "@zeevo/ui/mobile-nav";
+import { SiteFooter } from "@zeevo/ui/site-footer";
+import { SiteHeader } from "@zeevo/ui/site-header";
 import Link from "next/link";
 import { MainNav } from "./main-nav";
-import { buttonVariants } from "./ui/button";
+import { ThemeToggle } from "./theme-toggle";
 
 export function PageLayout({ children }: { children: React.ReactNode }) {
-  const { setTheme } = useTheme();
   return (
     <Layout
       header={
@@ -32,7 +28,7 @@ export function PageLayout({ children }: { children: React.ReactNode }) {
                   "w-9 px-0"
                 )}
               >
-                <Orbit className="h-4 w-4" />
+                <MixIcon className="h-4 w-4" />
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
@@ -45,11 +41,11 @@ export function PageLayout({ children }: { children: React.ReactNode }) {
                   "w-9 px-0"
                 )}
               >
-                <Orbit className="h-4 w-4" />
+                <MixIcon className="h-4 w-4" />
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>
-            <ModeToggle setTheme={setTheme} dropdownClassName="border-border" />
+            <ThemeToggle />
           </div>
         </SiteHeader>
       }

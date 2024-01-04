@@ -1,3 +1,5 @@
+import { fontFamily } from "tailwindcss/defaultTheme";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -6,7 +8,8 @@ module.exports = {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
-    "./node_modules/@zeevo/ui/dist/**/*.js",
+    "./node_modules/@zeevo/shadcn-ui/dist/**/*.{js,mjs,ts,jsx,tsx,mdx}",
+    "./node_modules/@zeevo/ui/dist/**/*.{js,mjs,ts,jsx,tsx,mdx}",
   ],
   theme: {
     container: {
@@ -17,6 +20,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

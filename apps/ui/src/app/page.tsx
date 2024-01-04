@@ -1,16 +1,21 @@
-import { PageLayout } from "@/components/layout";
-import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { MixIcon } from "@radix-ui/react-icons";
+import { type NextPage } from "next";
+import Link from "next/link";
+import { cn } from "@zeevo/ui/cn";
+import { PageLayout } from "./_components/my-layout";
 import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@zeevo/ui";
-import { Orbit } from "lucide-react";
-import { type NextPage } from "next";
-import Link from "next/link";
+} from "@zeevo/ui/page-header";
 
-const Home: NextPage = () => {
+import { buttonVariants } from "@zeevo/shadcn-ui/button";
+
+// export default function Home() {
+//   return <div className={cn("text-red-500")}>Button</div>;
+// }
+
+export default function Home() {
   return (
     <PageLayout>
       <div className="container relative flex-1">
@@ -35,7 +40,7 @@ const Home: NextPage = () => {
               href="#"
               className={cn(buttonVariants({ variant: "outline" }))}
             >
-              <Orbit className="mr-2 h-4 w-4" />
+              <MixIcon className="mr-2 h-4 w-4" />
               GitHub
             </Link>
           </div>
@@ -48,7 +53,7 @@ const Home: NextPage = () => {
       </div>
     </PageLayout>
   );
-};
+}
 
 function Placeholder() {
   return (
@@ -66,5 +71,3 @@ function Placeholder() {
     </div>
   );
 }
-
-export default Home;

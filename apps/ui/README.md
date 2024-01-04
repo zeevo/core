@@ -1,34 +1,36 @@
-<p align="center">  
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/t3-oss/create-t3-app/99286f37324330ecdf75132fae1f246440a88035/www/public/images/t3-light.svg">
-  <img src="https://raw.githubusercontent.com/t3-oss/create-t3-app/99286f37324330ecdf75132fae1f246440a88035/www/public/images/t3-dark.svg" width="130" height="130" alt="Logo for T3">
-  </picture>
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shadcn/ui/main/apps/www/public/android-chrome-512x512.png">
-  <img src="https://raw.githubusercontent.com/shadcn/ui/main/apps/www/public/android-chrome-512x512.png" width="130" height="130" alt="Logo for shadcn-ui">
-  </picture>
-</p>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# t3-shadcn-ui
+## Getting Started
 
-Do you like the [T3 Stack?](https://create.t3.gg/) Do you like [shadcn/ui components?](https://ui.shadcn.com/) Then this is the boilerplate for you.
-This project takes the backend of T3 and combines it with the frontend of shadcn/ui.
+First, run the development server:
 
-- [T3](https://github.com/t3-oss/create-t3-app)
-- [shadcn/ui](https://github.com/shadcn/ui)
-
-# Getting started
-
-Clone, install, migrate, and run the project.
-
-```
-git clone https://github.com/zeevo/t3-shadcn-ui.git
-cd t3-shadcn-ui
-npm i
-npm exec prisma migrate dev
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## How do I deploy this?
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
