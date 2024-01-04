@@ -8,11 +8,21 @@
     "directory": "packages/ui"
   },
   "license": "GPL-3.0",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "exports": {
+    "./docs-layout": "./dist/components/docs-layout.mjs",
+    "./layout": "./dist/components/layout.mjs",
+    "./mobile-nav": "./dist/components/mobile-nav.mjs",
+    "./mode-toggle": "./dist/components/mode-toggle.mjs",
+    "./page-header": "./dist/components/page-header.mjs",
+    "./sidebar-nav": "./dist/components/sidebar-nav.mjs",
+    "./site-footer": "./dist/components/site-footer.mjs",
+    "./site-header": "./dist/components/site-header.mjs",
+    "./tailwind-indicator": "./dist/components/tailwind-indicator.mjs",
+    "./toc": "./dist/components/toc.mjs",
+    "./cn": "./dist/lib/cn.mjs"
+  },
   "scripts": {
-    "build": "pnpm build:css && tsup ./src/index.tsx --format cjs --dts",
-    "build:css": "tailwindcss -i ./src/styles/styles.css -o ./dist/styles.css",
+    "build": "tsup src/**/*.{ts,tsx}",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -24,11 +34,13 @@
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.6.1",
     "clsx": "^2.0.0",
+    "mdast-util-toc": "^7.0.0",
     "next": "^13.4.1",
-    "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-wrap-balancer": "^1.1.0",
-    "tailwind-merge": "^1.14.0"
+    "remark": "^15.0.1",
+    "tailwind-merge": "^1.14.0",
+    "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
     "@turbo/gen": "^1.10.12",
