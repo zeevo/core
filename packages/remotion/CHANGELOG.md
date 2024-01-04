@@ -1,5 +1,11 @@
 # @zeevo/remotion
 
+## 0.7.0
+
+### Minor Changes
+
+- bf1ee05: Overhaul @zeevo/ui
+
 ## 0.6.0
 
 ### Minor Changes
