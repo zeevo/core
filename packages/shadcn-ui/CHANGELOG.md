@@ -1,5 +1,11 @@
 # @zeevo/shadcn-ui
 
+## 0.8.0
+
+### Minor Changes
+
+- b7b449e: Add separator, sheet, skeleton, and slider
+
 ## 0.7.0
 
 ### Minor Changes
