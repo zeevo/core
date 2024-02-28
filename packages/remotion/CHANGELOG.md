@@ -1,5 +1,12 @@
 # @zeevo/remotion
 
+## 0.9.0
+
+### Minor Changes
+
+- update @zeevo/shadcn-ui to latest components
+- e4ab441: delete tailwind config and globals.css
+
 ## 0.8.0
 
 ### Minor Changes

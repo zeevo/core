@@ -1,5 +1,14 @@
 # apps-remotion
 
+## 0.0.7
+
+### Patch Changes
+
+- update @zeevo/shadcn-ui to latest components
+- Updated dependencies
+- Updated dependencies [e4ab441]
+  - @zeevo/remotion@0.9.0
+
 ## 0.0.6
 
 ### Patch Changes
