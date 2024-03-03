@@ -1,5 +1,12 @@
 # @zeevo/ui
 
+## 0.10.0
+
+### Minor Changes
+
+- e6f45b8: improve dist build
+- 05f951e: move @zeevo/ui to tsc
+
 ## 0.9.0
 
 ### Minor Changes

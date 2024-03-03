@@ -1,5 +1,14 @@
 # apps-ui
 
+## 0.1.4
+
+### Patch Changes
+
+- Updated dependencies [e6f45b8]
+- Updated dependencies [05f951e]
+  - @zeevo/shadcn-ui@0.10.0
+  - @zeevo/ui@0.10.0
+
 ## 0.1.3
 
 ### Patch Changes
