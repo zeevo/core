@@ -1,8 +1,8 @@
-import { DocsSidebarNav } from "@/components/sidebar-nav";
-import { SidebarNavItem } from "@/types/nav";
+import { DocsSidebarNav } from "./sidebar-nav";
+import { SidebarNavItem } from "../types/nav";
 import { ScrollArea } from "@radix-ui/react-scroll-area";
 import { DashboardTableOfContents } from "./toc";
-import { TableOfContents } from "@/lib/toc";
+import { TableOfContents } from "../lib/toc";
 
 interface DocsLayoutProps {
   children: React.ReactNode;

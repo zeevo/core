@@ -9,20 +9,20 @@
   },
   "license": "GPL-3.0",
   "exports": {
-    "./docs-layout": "./dist/components/docs-layout.mjs",
-    "./layout": "./dist/components/layout.mjs",
-    "./mobile-nav": "./dist/components/mobile-nav.mjs",
-    "./mode-toggle": "./dist/components/mode-toggle.mjs",
-    "./page-header": "./dist/components/page-header.mjs",
-    "./sidebar-nav": "./dist/components/sidebar-nav.mjs",
-    "./site-footer": "./dist/components/site-footer.mjs",
-    "./site-header": "./dist/components/site-header.mjs",
-    "./tailwind-indicator": "./dist/components/tailwind-indicator.mjs",
-    "./toc": "./dist/components/toc.mjs",
-    "./cn": "./dist/lib/cn.mjs"
+    "./docs-layout": "./dist/components/docs-layout.js",
+    "./layout": "./dist/components/layout.js",
+    "./mobile-nav": "./dist/components/mobile-nav.js",
+    "./mode-toggle": "./dist/components/mode-toggle.js",
+    "./page-header": "./dist/components/page-header.js",
+    "./sidebar-nav": "./dist/components/sidebar-nav.js",
+    "./site-footer": "./dist/components/site-footer.js",
+    "./site-header": "./dist/components/site-header.js",
+    "./tailwind-indicator": "./dist/components/tailwind-indicator.js",
+    "./toc": "./dist/components/toc.js",
+    "./cn": "./dist/lib/cn.js"
   },
   "scripts": {
-    "build": "tsup src/**/*.{ts,tsx}",
+    "build": "tsc",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -47,7 +47,6 @@
     "@types/node": "^20.5.2",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.0",
-    "tsup": "^8.0.1"
+    "tailwindcss": "^3.3.0"
   }
 }

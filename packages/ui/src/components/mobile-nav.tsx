@@ -3,7 +3,7 @@ import * as React from "react";
 import Link, { LinkProps } from "next/link";
 import { useRouter } from "next/navigation";
 import { ViewVerticalIcon } from "@radix-ui/react-icons";
-import { cn } from "@/lib/cn";
+import { cn } from "../lib/cn";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { ScrollArea } from "@radix-ui/react-scroll-area";
 import { Button } from "./ui/button";

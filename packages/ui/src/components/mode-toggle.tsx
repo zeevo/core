@@ -8,7 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
-import { cn } from "@/lib/cn";
+import { cn } from "../lib/cn";
 import { Button } from "./ui/button";
 
 interface ModeToggleProps {
