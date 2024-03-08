@@ -1,5 +1,11 @@
 # @zeevo/ui
 
+## 0.11.0
+
+### Minor Changes
+
+- add latest shadcn/ui components
+
 ## 0.10.0
 
 ### Minor Changes
