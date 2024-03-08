@@ -144,7 +144,7 @@ importers:
         version: 4.0.83(react-dom@18.2.0)(react@18.2.0)
       tsup:
         specifier: ^8.0.1
-        version: 8.0.1(postcss@8.4.32)(typescript@5.3.3)
+        version: 8.0.1(typescript@5.3.3)
 
   packages/shadcn-ui:
     dependencies:
@@ -256,6 +256,9 @@ importers:
       embla-carousel-react:
         specifier: 8.0.0-rc17
         version: 8.0.0-rc17(react@18.2.0)
+      input-otp:
+        specifier: ^1.0.1
+        version: 1.0.1(react-dom@18.2.0)(react@18.2.0)
       next-themes:
         specifier: ^0.2.1
         version: 0.2.1(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
@@ -289,7 +292,7 @@ importers:
     devDependencies:
       tsup:
         specifier: ^8.0.1
-        version: 8.0.1(postcss@8.4.32)(typescript@5.3.3)
+        version: 8.0.1(typescript@5.3.3)
 
   packages/ui:
     dependencies:
@@ -354,9 +357,6 @@ importers:
       tailwindcss:
         specifier: ^3.3.0
         version: 3.4.0
-      tsup:
-        specifier: ^8.0.1
-        version: 8.0.1(postcss@8.4.32)(typescript@5.3.3)
 
 packages:
 
@@ -5596,6 +5596,16 @@ packages:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
     dev: true
 
+  /input-otp@1.0.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-AFMGRsOwXcH7koO+8nnVcJFYEe92tNmRlb2TUKbj9Bpdyc44GaS3LfJam3MdoXQv1jejpMS0+fxJFSCsEDHd9A==}
+    peerDependencies:
+      react: ^16.8 || ^17.0 || ^18.0
+      react-dom: ^16.8 || ^17.0 || ^18.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /inquirer@7.3.3:
     resolution: {integrity: sha512-JG3eIAj5V9CwcGvuOmoo6LB9kbAYT8HXffUl6memuszlwDC/qvFAJw49XJ5NROSFNPxp3iQg1GqkFhaY/CR0IA==}
     engines: {node: '>=8.0.0'}
@@ -8270,7 +8280,7 @@ packages:
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  /tsup@8.0.1(postcss@8.4.32)(typescript@5.3.3):
+  /tsup@8.0.1(typescript@5.3.3):
     resolution: {integrity: sha512-hvW7gUSG96j53ZTSlT4j/KL0q1Q2l6TqGBFc6/mu/L46IoNWqLLUzLRLP1R8Q7xrJTmkDxxDoojV5uCVs1sVOg==}
     engines: {node: '>=18'}
     hasBin: true
@@ -8297,7 +8307,6 @@ packages:
       execa: 5.1.1
       globby: 11.1.0
       joycon: 3.1.1
-      postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
       resolve-from: 5.0.0
       rollup: 4.9.2
