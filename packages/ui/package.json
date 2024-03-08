@@ -8,6 +8,9 @@
     "directory": "packages/ui"
   },
   "license": "GPL-3.0",
+  "files": [
+    "./dist/*"
+  ],
   "exports": {
     "./docs-layout": "./dist/components/docs-layout.js",
     "./layout": "./dist/components/layout.js",
