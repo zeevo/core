@@ -1,5 +1,17 @@
 # apps-ui
 
+## 0.3.0
+
+### Minor Changes
+
+- sync with latest shadcn-ui
+
+### Patch Changes
+
+- Updated dependencies
+  - @zeevo/shadcn-ui@0.12.0
+  - @zeevo/ui@0.12.0
+
 ## 0.2.0
 
 ### Minor Changes

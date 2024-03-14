@@ -1,5 +1,16 @@
 # apps-remotion
 
+## 0.2.0
+
+### Minor Changes
+
+- sync with latest shadcn-ui
+
+### Patch Changes
+
+- Updated dependencies
+  - @zeevo/remotion@0.12.0
+
 ## 0.1.0
 
 ### Minor Changes
