@@ -6,13 +6,12 @@ Small wrapper components that work with [shadcn/ui](https://ui.shadcn.com/).
 
 These components are designed to be used in a TailwindCSS project.
 
-Add `@zeevo/ui` to your `tailwind.config`.
+Add `@zeevo/ui` to your `tailwind.config.ts`.
 
-```
+```js
 module.exports = {
   darkMode: ["class"],
   content: [
-    ...,
     "./node_modules/@zeevo/ui/dist/**/*.js",
   ]
 }
