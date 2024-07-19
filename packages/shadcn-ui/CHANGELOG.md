@@ -1,5 +1,11 @@
 # @zeevo/shadcn-ui
 
+## 0.13.0
+
+### Minor Changes
+
+- 004836b: upgrade to latest shadcn-ui
+
 ## 0.12.0
 
 ### Minor Changes
