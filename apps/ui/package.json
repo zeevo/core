@@ -21,6 +21,7 @@
     "tsc-alias": "^1.8.8"
   },
   "devDependencies": {
+    "@zeevo/typescript-config": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

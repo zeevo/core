@@ -12,7 +12,7 @@
     "./dist/*"
   ],
   "exports": {
-    "./accordion": "./dist/components/ui/accordian.js",
+    "./accordion": "./dist/components/ui/accordion.js",
     "./alert-dialog": "./dist/components/ui/alert-dialog.js",
     "./alert": "./dist/components/ui/alert.js",
     "./aspect-ratio": "./dist/components/ui/aspect-ratio.js",
@@ -97,14 +97,14 @@
     "@types/react-dom": "^18.2.5",
     "class-variance-authority": "^0.6.1",
     "clsx": "^2.0.0",
-    "cmdk": "^0.2.0",
+    "cmdk": "^1.0.0",
     "date-fns": "^3.0.6",
     "embla-carousel-react": "8.0.0-rc17",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.408.0",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
-    "react-day-picker": "^8.10.0",
+    "react-day-picker": "^8.10.1",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.2",
     "react-resizable-panels": "^1.0.7",
@@ -115,6 +115,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "tsup": "^8.0.1"
+    "tsup": "^8.0.1",
+    "@zeevo/typescript-config": "workspace:*"
   }
 }

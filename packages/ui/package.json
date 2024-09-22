@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint ."
+    "lint": "eslint src/*/**.ts"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.0.4",
@@ -46,7 +46,8 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "@turbo/gen": "^1.10.12",
+    "@zeevo/typescript-config": "workspace:*",
+    "@zeevo/eslint-config": "workspace:*",
     "@types/node": "^20.5.2",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",

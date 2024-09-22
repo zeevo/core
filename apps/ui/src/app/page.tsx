@@ -11,10 +11,6 @@ import {
 
 import { buttonVariants } from "@zeevo/shadcn-ui/button";
 
-// export default function Home() {
-//   return <div className={cn("text-red-500")}>Button</div>;
-// }
-
 export default function Home() {
   return (
     <PageLayout>
